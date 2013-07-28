@@ -1,0 +1,14 @@
+{
+  "name": "chatrooms",
+  "version": "0.0.1",
+  "description": "Chatroom example",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TJ Marbois",
+  "license": "BSD",
+  "dependencies": {
+    "socket.io": "~0.9.16"
+  }
+}
