@@ -46,7 +46,13 @@ function serveStatic(response, cache, absPath) {
     }
 }
 
-// a comment to test github
+// starting the webserver and listening on port
+
+server.listen(3000, function() {
+    console.log("Server listening on port 3000!");
+});
+
+
 
 var server = http.createServer(function(request, response) {
     var filePath = false;
