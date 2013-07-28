@@ -9,6 +9,7 @@
   "author": "TJ Marbois",
   "license": "BSD",
   "dependencies": {
-    "socket.io": "~0.9.16"
+    "socket.io": "~0.9.16",
+    "mime": "~1.2.10"
   }
 }
