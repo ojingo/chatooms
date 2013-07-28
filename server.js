@@ -46,6 +46,8 @@ function serveStatic(response, cache, absPath) {
     }
 }
 
+// a comment to test github
+
 var server = http.createServer(function(request, response) {
     var filePath = false;
 
